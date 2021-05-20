@@ -1,0 +1,17 @@
+package Facil.Gratis;
+
+import java.util.Scanner;
+
+public class FruitBowl {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        int fruit = input.nextInt();
+
+        int calc = fruit/6;
+
+        System.out.println(calc);
+    }
+
+}
